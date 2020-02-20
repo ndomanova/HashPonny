@@ -8,4 +8,12 @@ public class Book {
         this.id = id;
         this.score = score;
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getScore() {
+        return score;
+    }
 }
